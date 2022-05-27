@@ -18,5 +18,5 @@ application = get_wsgi_application()
 def testalert():
     print("testalert")
 
-def testalert2():
+def testalert():
     print("testalert")
