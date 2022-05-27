@@ -17,27 +17,6 @@ application = get_wsgi_application()
 
 def testalert():
     print("testalert")
-def testalert():
-    print("testalert")
-def testalert():
-    print("testalert")
-def testalert():
-    print("testalert")
-def testalert():
-    print("testalert")
-def testalert():
-    print("testalert")
-def testalert():
-    print("testalert")
-def testalert():
-    print("testalert")
-def testalert():
-    print("testalert")
-def testalert():
-    print("testalert")
-
-
-
 
 
 
