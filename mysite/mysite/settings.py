@@ -89,6 +89,10 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
+
+def testalert():
+    print("testalert")
+
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
