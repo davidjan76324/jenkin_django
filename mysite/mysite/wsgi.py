@@ -16,4 +16,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mysite.settings")
 application = get_wsgi_application()
 
 def testprint():
-  print("fuck")
+  print("test")
+
+def testprint2():
+  print("test")
