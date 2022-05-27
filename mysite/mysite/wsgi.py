@@ -35,8 +35,7 @@ def testalert():
     print("testalert")
 def testalert():
     print("testalert")
-def testalert():
-    print("testalert")
+
 
 
 
