@@ -20,7 +20,7 @@ asdkasmdo
 asdkasmdo
 asdkasmdo
 asdkasmdo
-asdkasmdo
+asdka123123
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
