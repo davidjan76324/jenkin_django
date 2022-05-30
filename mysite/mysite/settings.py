@@ -106,3 +106,28 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+
+def printTest():
+    print("mytest")
+def printTest():
+    print("mytest")
+def printTest():
+    print("mytest")
+def printTest():
+    print("mytest")
+def printTest():
+    print("mytest")
+def printTest():
+    print("mytest")
+def printTest():
+    print("mytest")
+def printTest():
+    print("mytest")
+def printTest():
+    print("mytest")
+def printTest():
+    print("mytest")
+def printTest():
+    print("mytest")
+def printTest():
+    print("mytest")
