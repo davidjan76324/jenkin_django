@@ -42,10 +42,12 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_jenkins'.
 )
-INSTALLED_APPS += ('django_jenkins',)
+
 JENKINS_TASKS = ( 
     'django_jenkins.tasks.run_pylint',
+    'django_jenkins.runner.CITestSuiteRunner',
 )
 PROJECT_APPS = ['mysite']
 
