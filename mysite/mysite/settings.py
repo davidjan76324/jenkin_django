@@ -47,7 +47,6 @@ INSTALLED_APPS = (
 
 JENKINS_TASKS = ( 
     'django_jenkins.tasks.run_pylint',
-    'django_jenkins.runner.CITestSuiteRunner',
 )
 PROJECT_APPS = ['mysite']
 
