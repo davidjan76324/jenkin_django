@@ -15,6 +15,9 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 import davidjan
+import davidjan
+asdkasmdo
+asdkasmdo
 asdkasmdo
 asdkasmdo
 
