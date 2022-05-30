@@ -42,13 +42,13 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_jenkins',
+    # 'django_jenkins',
 )
 
-JENKINS_TASKS = ( 
-    'django_jenkins.tasks.run_pylint',
-)
-PROJECT_APPS = ['mysite']
+# JENKINS_TASKS = ( 
+#     'django_jenkins.tasks.run_pylint',
+# )
+# PROJECT_APPS = ['mysite']
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
