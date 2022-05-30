@@ -16,6 +16,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 import davidjan
 asdkasmdo
+asdkasmdo
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
