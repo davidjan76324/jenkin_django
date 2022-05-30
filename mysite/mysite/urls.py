@@ -18,10 +18,7 @@ import davidjan
 import Mee
 asdkasmdo
 asdkasmdo
-asdkasmdo
-asdkasmdo1231312
-asdka1231212646546555666
-123
+
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
