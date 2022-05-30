@@ -16,7 +16,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 import davidjan
 import Mee
-asdkasmdo123123
+asdkasmdo123123fwefwefwe
 
 
 urlpatterns = [
