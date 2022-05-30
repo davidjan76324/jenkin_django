@@ -106,26 +106,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-
-def printTest():
-    print("hello world!")
-def printTest():
-    print("hello world!")
-def printTest():
-    print("hello world!")
-def printTest():
-    print("hello world!")
-def printTest():
-    print("hello world!")
-def printTest():
-    print("hello world!")
-def printTest():
-    print("hello world!")
-def printTest():
-    print("hello world!")
-def printTest():
-    print("hello world!")
-def printTest():
-    print("hello world!")
-def printTest():
-    print("hello world!")
