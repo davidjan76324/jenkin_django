@@ -16,12 +16,7 @@ import os
 # asdkasmdo
 # Jenkins integration
 
-INSTALLED_APPS += ('django_jenkins',)
-JENKINS_TASKS = ( 
-    'django_jenkins.tasks.with_coverage',
-    'django_jenkins.tasks.run_pylint',
-)
-PROJECT_APPS = ['mysite']
+
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -48,6 +43,12 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
 )
+INSTALLED_APPS += ('django_jenkins',)
+JENKINS_TASKS = ( 
+    'django_jenkins.tasks.with_coverage',
+    'django_jenkins.tasks.run_pylint',
+)
+PROJECT_APPS = ['mysite']
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
