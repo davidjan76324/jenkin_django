@@ -14,7 +14,15 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 import os
 # import davidjan
 # asdkasmdo
+# Jenkins integration
 
+INSTALLED_APPS += ('django_jenkins',)
+INSTALLED_APPS += ('django_jenkins',)
+JENKINS_TASKS = ( 
+    'django_jenkins.tasks.with_coverage',
+    'django_jenkins.tasks.run_pylint',
+)
+PROJECT_APPS = ['mysite']
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
