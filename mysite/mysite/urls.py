@@ -17,7 +17,6 @@ from django.contrib import admin
 import davidjan
 import Mee
 asdkasmdo
-asdkasmdo
 
 
 urlpatterns = [
